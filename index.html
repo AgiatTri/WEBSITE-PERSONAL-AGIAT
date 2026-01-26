@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+
+<!-- LEFT SOCIAL NAV -->
+<nav class="social-nav glass">
+  <a href="https://wa.me/6281219011026" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+  <a href="https://www.linkedin.com/in/agiat-tri-farizky-820037129/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+  <a href="https://www.youtube.com/@yourchannel" target="_blank"><i class='bx bxl-youtube'></i></a>
+  <a href="https://www.instagram.com/agiat_tri" target="_blank"><i class='bx bxl-instagram'></i></a>
+  <a href="https://www.tiktok.com/@agiattrifarizky" target="_blank"><i class='bx bxl-tiktok'></i></a>
+</nav>
+
+<header class="topbar glass">
+  <div class="brand">
+    <img src="assets/logo.png" class="logo" alt="logo">
+    <h1>Agiat tri farizky Portfolio</h1>
+  </div>
+
+  <div class="filters glass">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="desain">Desain</button>
+    <button data-filter="motions">Motions & Video</button>
+    <button data-filter="packaging">Packaging</button>
+    <button data-filter="sosmed">Sosmed & E-commerce</button>
+    <button data-filter="sertifikat">Sertifikat</button>
+
+    <a href="#contact" class="btn">Contact</a>
+    <a href="assets/CV.pdf" class="btn" download>Download CV</a>
+  </div>
+</header>
+
+<main class="gallery" id="gallery"></main>
+
+<section id="contact" class="contact glass">
+  <h2>Contact Me</h2>
+  <p>Email: agiattrifarisky3ak1@gmail.com</p>
+  <p>WhatsApp: +62 812 1901 1026</p>
+  <p>Instagram: @agiat_tri</p>
+</section>
+
+<footer class="footer glass">
+  <p>© 2026 Agiat Tri Farizky. All rights reserved.</p>
+  <small>Built with Glassmorphism UI & Masonry Portopolio Agiat Gallery</small>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content" id="modalContent"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

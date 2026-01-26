@@ -1,0 +1,14 @@
+root
+ ├ index.html
+ ├ app.js
+ ├ data.json
+ └ assets
+     ├ desain
+     │   └ agiat.jpg
+     ├ motions
+     │   └ arjoenamovie.mp4
+     ├ sertifikat
+     │   ├ thumb.jpg
+     │   └ uiux.pdf
+     └ sosmed
+         └ sosmed1.jpg
