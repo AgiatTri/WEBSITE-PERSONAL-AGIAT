@@ -17,9 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const div = document.createElement("div");
         div.className = `item ${item.category}`;
 
-        /* IMAGE */
-        if (item.type === "image") {
-          div.innerHTML = `<img src="${item.src}" loading="lazy">`;
+        /* THUMBNAIL (IMAGE / PDF / LINK) */
+        if (item.type === "image" || item.type === "pdf" || item.type === "link") {
+          div.innerHTML = `
+            <img 
+              src="${item.src}" 
+              loading="lazy"
+              onerror="this.onerror=null"
+            >
+          `;
         }
 
         /* YOUTUBE */
@@ -30,11 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
           `;
         }
 
-        div.addEventListener("click", () => openModal(item));
+        div.addEventListener("click", () => openItem(item));
         gallery.appendChild(div);
       });
 
-      /* INIT FILTER AFTER ITEMS EXIST */
       initFilter();
     })
     .catch(err => {
@@ -50,41 +55,35 @@ document.addEventListener("DOMContentLoaded", () => {
   function initFilter() {
     filterButtons.forEach(btn => {
       btn.addEventListener("click", () => {
-
-        /* ACTIVE STATE */
         filterButtons.forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
 
         const filter = btn.dataset.filter;
-        const items = document.querySelectorAll(".gallery .item");
-
-        items.forEach(item => {
-          if (filter === "all" || item.classList.contains(filter)) {
-            item.style.display = "block";
-          } else {
-            item.style.display = "none";
-          }
+        document.querySelectorAll(".gallery .item").forEach(item => {
+          item.style.display =
+            filter === "all" || item.classList.contains(filter)
+              ? "block"
+              : "none";
         });
-
       });
     });
   }
 
-  /* OPEN MODAL */
-  function openModal(item) {
-    modal.classList.add("active");
+  /* ITEM ACTION HANDLER */
+  function openItem(item) {
 
     /* IMAGE */
     if (item.type === "image") {
+      modal.classList.add("active");
       modalContent.innerHTML = `<img src="${item.src}">`;
+      return;
     }
 
     /* YOUTUBE */
     if (item.type === "youtube") {
-      const isShort = item.isShort === true;
-
+      modal.classList.add("active");
       modalContent.innerHTML = `
-        <div class="video-wrapper ${isShort ? "portrait" : "landscape"}">
+        <div class="video-wrapper ${item.isShort ? "portrait" : "landscape"}">
           <iframe
             src="https://www.youtube.com/embed/${item.youtubeId}?autoplay=1&rel=0"
             allow="autoplay; encrypted-media"
@@ -92,23 +91,34 @@ document.addEventListener("DOMContentLoaded", () => {
           </iframe>
         </div>
       `;
+      return;
+    }
+
+    /* PDF */
+    if (item.type === "pdf" && item.file) {
+      window.open(item.file, "_blank");
+      return;
+    }
+
+    /* EXTERNAL LINK (SOSMED) */
+    if (item.type === "link" && item.url) {
+      window.open(item.url, "_blank");
+      return;
     }
   }
 
   /* CLOSE MODAL */
   function closeModal() {
     modal.classList.remove("active");
-    modalContent.innerHTML = ""; // stop video
+    modalContent.innerHTML = "";
   }
 
-  /* CLICK EVENTS */
   closeBtn.addEventListener("click", closeModal);
 
   modal.addEventListener("click", e => {
     if (e.target === modal) closeModal();
   });
 
-  /* ESC KEY */
   document.addEventListener("keydown", e => {
     if (e.key === "Escape" && modal.classList.contains("active")) {
       closeModal();
