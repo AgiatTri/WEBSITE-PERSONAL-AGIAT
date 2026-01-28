@@ -516,7 +516,7 @@
   },
   {
     "type": "pdf",
-    "src": "assets/sertifikat/cert1.png",
+    "src": "assets/sertifikat/cert1.jpg",
     "file": "assets/sertifikat/cert1.pdf",
     "category": "sertifikat"
   },
@@ -546,25 +546,25 @@
   },
   {
     "type": "pdf",
-    "src": "assets/sertifikat/cert6.png",
+    "src": "assets/sertifikat/cert6.jpg",
     "file": "assets/sertifikat/cert6.pdf",
     "category": "sertifikat"
   },
   {
     "type": "link",
-    "src": "assets/sosmed/vivo_ig.png",
+    "src": "assets/sosmed/vivo.png",
     "url": "https://www.instagram.com/vivo_id",
     "category": "sosmed"
   },
   {
     "type": "link",
-    "src": "assets/sosmed/sensitif_ig.png",
+    "src": "assets/sosmed/sensitif.png",
     "url": "https://www.instagram.com/sensitif_id",
     "category": "sosmed"
   },
   {
     "type": "link",
-    "src": "assets/sosmed/danpac_ig.png",
+    "src": "assets/sosmed/danpac.png",
     "url": "https://www.instagram.com/danpac_id",
     "category": "sosmed"
   }
