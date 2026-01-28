@@ -1,201 +1,539 @@
 [
-  { "type":"image", "src":"assets/desain/desain1.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain2.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain3.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain4.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain5.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain6.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain7.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain8.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain9.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain10.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain11.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain12.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain20.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain21.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain22.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain23.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain24.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain25.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain26.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain27.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain28.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain29.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain30.jpg", "category":"desain" },
-  { "type":"image", "src":"assets/desain/desain31.jpg", "category":"desain" },
-
-  { "type":"video", "src":"assets/motions/motion1.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion2.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion3.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion4.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion5.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion6.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion7.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion8.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion9.mp4", "category":"motions" },
-  { "type":"video", "src":"assets/motions/motion10.mp4", "category":"motions" },
-
-
-  { "type":"image", "src":"assets/packaging/packaging1.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging2.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging3.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging4.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging5.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging6.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging7.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging8.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging9.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging10.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging11.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging12.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging13.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging14.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging15.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging16.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging17.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging18.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging19.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging20.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging21.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging22.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging23.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging24.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging25.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging26.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging27.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging28.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging29.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging30.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging31.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging32.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging33.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging34.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging35.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging36.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging37.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging38.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging39.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging40.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging41.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging42.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging43.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging44.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging45.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging46.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging27.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging48.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging49.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging50.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging51.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging52.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging53.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging54.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging55.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging56.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging57.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging58.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging59.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging60.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging61.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging62.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging63.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging64.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging65.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging66.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging67.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging68.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging69.png", "category":"packaging" },
-  { "type":"image", "src":"assets/packaging/packaging70.png", "category":"packaging" },
-
-
   {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert1.jpg",
-    "file":"assets/sertifikat/cert1.pdf",
-    "category":"sertifikat"
-  },
- {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert2.png",
-    "file":"assets/sertifikat/cert2.pdf",
-    "category":"sertifikat"
-  },
-   {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert3.png",
-    "file":"assets/sertifikat/cert3.pdf",
-    "category":"sertifikat"
-  },
-   {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert4.png",
-    "file":"assets/sertifikat/cert4.pdf",
-    "category":"sertifikat"
-  },
-   {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert5.png",
-    "file":"assets/sertifikat/cert5.pdf",
-    "category":"sertifikat"
-  },
-   {
-    "type":"pdf",
-    "src":"assets/sertifikat/cert6.jpg",
-    "file":"assets/sertifikat/cert6.pdf",
-    "category":"sertifikat"
-  },
-
-  {
-    "type":"link",
-    "src":"assets/sosmed/sensitif ig.png",
-    "url":"https://www.instagram.com/agiat_tri",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain1.jpg",
+    "category": "desain"
   },
   {
-    "type":"link",
-    "src":"assets/sosmed/vivo ig.png",
-    "url":"https://www.instagram.com/agiat_tri",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain2.jpg",
+    "category": "desain"
   },
   {
-    "type":"link",
-    "src":"assets/sosmed/vivo ig.png",
-    "url":"https://www.instagram.com/agiat_tri",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain3.jpg",
+    "category": "desain"
   },
   {
-    "type":"link",
-    "src":"assets/sosmed/vivo ig.png",
-    "url":"https://www.instagram.com/agiat_tri",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain4.jpg",
+    "category": "desain"
   },
   {
-    "type":"link",
-    "src":"assets/sosmed/vivo ig.png",
-    "url":"https://www.instagram.com/agiat_tri",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain5.jpg",
+    "category": "desain"
   },
   {
-    "type":"image",
-    "src":"assets/sosmed/BANNER PAK VIJAI 200x80 CM-01.jpg",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain6.jpg",
+    "category": "desain"
   },
   {
-    "type":"image",
-    "src":"assets/sosmed/BANNER PAK VIJAI 200x80 CM-01.jpg",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain7.jpg",
+    "category": "desain"
   },
   {
-    "type":"image",
-    "src":"assets/sosmed/BANNER PAK VIJAI 200x80 CM-01.jpg",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain8.jpg",
+    "category": "desain"
   },
   {
-    "type":"image",
-    "src":"assets/sosmed/BANNER PAK VIJAI 200x80 CM-01.jpg",
-    "category":"sosmed"
+    "type": "image",
+    "src": "assets/desain/desain9.jpg",
+    "category": "desain"
+  },
+  {
+    "type": "image",
+    "src": "assets/desain/desain10.jpg",
+    "category": "desain"
+  },
+  {
+    "type": "image",
+    "src": "assets/desain/desain11.jpg",
+    "category": "desain"
+  },
+  {
+    "type": "image",
+    "src": "assets/desain/desain12.jpg",
+    "category": "desain"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "dQw4w9WgXcQ",
+    "thumb": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "vy6WwBDWaeM",
+    "thumb": "https://img.youtube.com/vi/vy6WwBDWaeM/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "_r1TKNySlo4",
+    "thumb": "https://img.youtube.com/vi/_r1TKNySlo4/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "NdkrGQmCvv0",
+    "thumb": "https://img.youtube.com/vi/NdkrGQmCvv0/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "2DgHMgHAfCI",
+    "thumb": "https://img.youtube.com/vi/2DgHMgHAfCI/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "8UBdEzJseZI",
+    "thumb": "https://img.youtube.com/vi8UBdEzJseZI/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "3Xye0xFFCak",
+    "thumb": "https://img.youtube.com/vi3Xye0xFFCak/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "uNwiWClZOnM",
+    "thumb": "https://img.youtube.com/uNwiWClZOnM/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "q80ZrBOSNN0",
+    "thumb": "https://img.youtube.com/q80ZrBOSNN0/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "HW-a7MEwFiI",
+    "thumb": "https://img.youtube.com/HW-a7MEwFiI/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "1fSaNkcv1_Y",
+    "thumb": "https://img.youtube.com/1fSaNkcv1_Y/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "RYgqmxHo2fo",
+    "thumb": "https://img.youtube.com/RYgqmxHo2fo/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "Y455t1Qf6ck",
+    "thumb": "https://img.youtube.com/Y455t1Qf6ck/hqdefault.jpg",
+    "category": "motions"
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "C-ZVWndHOZk",
+    "thumb": "https://img.youtube.com/vi/C-ZVWndHOZk/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging1.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging2.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging3.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging4.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging5.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging6.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging7.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging8.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging9.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging10.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging11.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging12.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging13.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging14.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging15.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging16.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging17.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging18.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging19.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging20.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging21.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging22.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging23.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging24.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging25.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging26.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging27.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging28.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging29.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging30.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging31.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging32.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging33.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging34.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging35.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging36.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging37.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging38.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging39.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging40.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging41.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging42.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging43.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging44.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging45.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging46.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging47.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging48.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging49.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging50.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging51.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging52.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging53.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging54.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging55.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging56.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging57.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging58.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging59.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging60.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging61.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging62.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging63.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging64.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging65.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging66.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging67.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging68.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging69.png",
+    "category": "packaging"
+  },
+  {
+    "type": "image",
+    "src": "assets/packaging/packaging70.png",
+    "category": "packaging"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert1.png",
+    "file": "assets/sertifikat/cert1.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert2.png",
+    "file": "assets/sertifikat/cert2.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert3.png",
+    "file": "assets/sertifikat/cert3.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert4.png",
+    "file": "assets/sertifikat/cert4.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert5.png",
+    "file": "assets/sertifikat/cert5.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "pdf",
+    "src": "assets/sertifikat/cert6.png",
+    "file": "assets/sertifikat/cert6.pdf",
+    "category": "sertifikat"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/vivo_ig.png",
+    "url": "https://www.instagram.com/agiat_tri",
+    "category": "sosmed"
   }
-
-
-  
 ]
