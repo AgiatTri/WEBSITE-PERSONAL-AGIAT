@@ -248,6 +248,41 @@
   },
   {
     "type": "youtube",
+    "youtubeId": "uzuOu5VrRsE",
+    "thumb": "https://img.youtube.com/vi/uzuOu5VrRsE/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "WVvvJl19xfA",
+    "thumb": "https://img.youtube.com/vi/WVvvJl19xfA/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "EQifGxd2MmY",
+    "thumb": "https://img.youtube.com/vi/EQifGxd2MmY/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "GOInfHnCdNk",
+    "thumb": "https://img.youtube.com/vi/GOInfHnCdNk/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "youtube",
+    "youtubeId": "hs5e3kvvcs0",
+    "thumb": "https://img.youtube.com/vi/hs5e3kvvcs0/hqdefault.jpg",
+    "category": "motions",
+    "isShort": true
+  },
+  {
+    "type": "youtube",
     "youtubeId": "afPte7n_WiA",
     "thumb": "https://img.youtube.com/vi/afPte7n_WiA/hqdefault.jpg",
     "category": "motions",
