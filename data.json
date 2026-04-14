@@ -847,21 +847,64 @@
   },
   {
     "type": "link",
-    "src": "assets/sosmed/vivo.png",
-    "url": "https://www.instagram.com/vivo_id",
+    "src": "assets/sosmed/RCTI.png",
+    "url": "https://www.instagram.com/seputarinewsrcti",
     "category": "sosmed"
   },
   {
     "type": "link",
-    "src": "assets/sosmed/sensitif.png",
+    "src": "assets/sosmed/RTV.png",
+    "url": "https://www.instagram.com/lensaindonesiartv",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/DANPACID.png",
+    "url": "https://www.instagram.com/danpac_id",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/ARJOENA.png",
+    "url": "https://www.instagram.com/arjoena_id",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/DANPACMART.png",
+    "url": "https://www.instagram.com/danpacmart",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/NATURES.png",
+    "url": "https://www.instagram.com/naturesbeautyid",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/SENSITIF.png",
     "url": "https://www.instagram.com/sensitif_id",
     "category": "sosmed"
   },
   {
     "type": "link",
-    "src": "assets/sosmed/danpac.png",
-    "url": "https://www.instagram.com/danpac_id",
+    "src": "assets/sosmed/VIVO.png",
+    "url": "https://www.instagram.com/vivo_id",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/STERIL.png",
+    "url": "https://www.instagram.com/sterilmedical_id",
+    "category": "sosmed"
+  },
+  {
+    "type": "link",
+    "src": "assets/sosmed/DIDO.png",
+    "url": "https://www.instagram.com/mydido.id",
     "category": "sosmed"
   }
+  
   
 ]
